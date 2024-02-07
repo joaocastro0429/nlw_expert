@@ -1,0 +1,19 @@
+{
+  "name": "NLW-EXPERT",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev src/http/server.ts"
+  },
+  "devDependencies": {
+    "prisma": "^5.9.1",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@prisma/client": "5.9.1",
+    "fastify": "^4.26.0",
+    "ts-node-dev": "^2.0.0",
+    "zod": "^3.22.4"
+  }
+}
